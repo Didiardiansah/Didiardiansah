@@ -8,8 +8,6 @@
 Didiardiansah/Didiardiansah is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-Sorry lupa share yang ini.
-
 snap=$(curl -s http://94.250.203.6:90 | egrep -o ">ollo-snap*.*tar" | tr -d ">")
 sudo systemctl stop ollod.service
 rm-rf  $HOME/.ollo/data
